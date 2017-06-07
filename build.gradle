@@ -20,7 +20,9 @@ sourceCompatibility = 1.8
 repositories {
 	mavenCentral()
 }
-
+jar {
+	baseName = 'eureka-server'
+}
 
 ext {
 	springCloudVersion = 'Dalston.SR1'

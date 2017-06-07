@@ -1,0 +1,9 @@
+applications:
+- name: eureka-server
+  instances: 1
+  memory: 512M
+  disk_quota: 512M
+  routes:
+  - route: eureka-server-invitational-justiciarship.cfapps.io
+  services:
+  - config-server
